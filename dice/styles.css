@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #2f363e;
+}
+
+/* Title */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ecarte un peut la balise p de .container a l'imput et le bouton rool */
+
+.container p{
+    margin: 20px 0 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* met le titre h1 au dessus de la balise p */
+
+.container h1{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 300px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* met l'input et le bouton rool au centre */
+
+.container #diceNumber{
+    width: 300px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    background: transparent;
+}
+
+.container #diceNumber:focus{
+    outline: none;
+}
+
+.container #diceNumber::placeholder{
+    color: #fff;
+}
+
+.container #rollBtn{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+}
+
